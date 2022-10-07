@@ -16,5 +16,5 @@ persist.sys.sf.disable_blurs=1
 ro.sf.blurs_are_expensive=1
 
 # Project-Elixir Stuff
-ro.elixir.maintainer=bigsaltyfishes
-org.elixir.device=Lenovo Xiaoxin Pad Plus
+ro.elixir.maintainer=寒词
+org.elixir.device=Lenovo Xiaoxin Pad Plus 2021
