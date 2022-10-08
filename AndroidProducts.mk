@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_J607F.mk
+    $(LOCAL_DIR)/aosp_J607F.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_J607F-user \
-    cherish_J607F-userdebug \
-    cherish_J607F-eng
+    aosp_J607F-user \
+    aosp_J607F-userdebug \
+    aosp_J607F-eng

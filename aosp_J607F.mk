@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lenovo/J607F/device.mk)
 
 # Inherit some common Project-Elixir stuff.
-$(call inherit-product, vendor/cherish/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
 
 # Enable 2-Pane Layout
 PRODUCT_PACKAGES += \
@@ -30,7 +30,7 @@ CHERISH_BUILD_TYPE := OFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=寒词
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_J607F
+PRODUCT_NAME := aosp_J607F
 PRODUCT_DEVICE := J607F
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-J607F
